@@ -1006,11 +1006,10 @@ border-radius: 10px;
 
 
 
-@media only screen and (max-width: 1024px) {
-  .responsive #top body{
-  background-attachment: scroll !important;
-  }
-  
+@media screen and (max-width: 850px) {
+    body{
+      background-size: 100%;
+    }
   
   .headmenu{
       display: none;
