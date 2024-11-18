@@ -18,6 +18,7 @@ body{
   background-image: url(bckopt.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
 a{
     text-decoration: none;
@@ -1005,8 +1006,13 @@ border-radius: 10px;
 
 
 
-@media screen and (max-width: 850px) {
-    .headmenu{
+@media only screen and (max-width: 1024px) {
+  .responsive #top body{
+  background-attachment: scroll !important;
+  }
+  
+  
+  .headmenu{
       display: none;
     }
     
