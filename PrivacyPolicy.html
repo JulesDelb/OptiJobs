@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="privacy.css">
+    <script src="https://kit.fontawesome.com/55cb131398.js" crossorigin="anonymous"></script>
+
+    <title>Optijobs</title>
+    
+</head>
+<body>
+
+       <!--Menu-->
+<div id="bar"></div>
+<div class="bar"></div>
+<div class="bar_content">
+<div class="barcmp">
+    <div class="logo"><div class="bar_logo"><div class="square1"></div><div class="square2"></div><div class="square3"></div><div class="square4"></div></div> <h1 class="Opti">Opti</h1><h1 class="Jobs">Jobs</h1></div> 
+</div>
+
+<button type="button" class="langue" onclick="myFunction()"></button>
+<div class="langmenu" id="Langmenu">
+    <button type="button" class="closelang" onclick="myFunction2()"></button>
+    <div class="langbck">
+        <a href="PrivacyPolicyro.html"><button  class="buttonlang">Romana<img src="Images/ro.jpeg"></button></a>
+        <a href="PrivacyPolicyhu.html"><button  class="buttonlang">Magyar<img src="Images/hung.jpeg"></button></a>
+        <a href="PrivacyPolicyfr.html"><button  class="buttonlang">Français<img src="Images/fr.png"></button></a>
+    </div>
+</div>
+
+</div>
+    
+
+ </div>
+
+
+
+
+ <div class="privacy">
+    <br><br><br>
+    **Privacy Policy**
+<br><br>
+**Last updated: 14/11/2024**
+<br><br>
+At OptiJobs, we are committed to protecting and respecting your privacy. This privacy policy explains how we collect, use, store, and protect your personal information when you apply for a delivery driver position through our website.
+<br><br>
+**1. Information We Collect**
+<br><br>
+When you apply for a delivery driver position, we collect the following information:
+<br><br>
+- First name<br>
+- Email address<br>
+- Phone number<br>
+- Photo<br>
+- Identity document
+<br><br>
+**2. Purposes of Data Processing**
+<br><br>
+We use your personal information for the following purposes:
+<br><br>
+- To evaluate your application for a delivery driver position.<br>
+- To communicate with you regarding your application.<br>
+- To comply with our legal and regulatory obligations.
+<br><br>
+**3. Legal Basis for Processing**
+<br><br>
+We process your personal data based on our legitimate interests in evaluating applications and recruiting delivery drivers. By submitting your information, you also consent to this processing.
+<br><br>
+**4. Data Retention**
+<br><br>
+We will retain your personal information for as long as necessary to fulfill the purposes for which it was collected, including to satisfy our legal, accounting, or reporting obligations.
+<br><br>
+**5. Data Sharing**
+<br><br>
+We will not share your personal information with third parties unless it is necessary for processing your application or if we are legally required to do so.
+<br><br>
+**6. Data Security**
+<br><br>
+We take appropriate technical and organizational measures to protect your personal information against loss, theft, unauthorized access, disclosure, alteration, or destruction.
+<br><br>
+**7. Your Rights**
+<br><br>
+Under the GDPR, you have the following rights regarding your personal data:
+<br><br>
+- Right of access: You have the right to request a copy of the information we hold about you.<br>
+- Right to rectification: You have the right to request the correction of your personal information if it is inaccurate or incomplete.<br>
+- Right to erasure: You have the right to request the deletion of your personal information in certain circumstances.<br>
+- Right to restriction of processing: You have the right to request the restriction of processing your personal data.<br>
+- Right to data portability: You have the right to request that your personal data be transferred to another data controller.<br>
+- Right to object: You have the right to object to the processing of your personal data in certain circumstances.
+<br><br>
+To exercise your rights, please contact us at the following address: [contact email address].
+<br><br>
+**8. Changes to This Policy**
+<br><br>
+We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on our website. We encourage you to review this page regularly to stay informed about our privacy practices.
+<br><br>
+**9. Contact**
+<br><br>
+If you have any questions regarding this privacy policy or our data practices, please contact us at:
+<br><br>
+Optijobs<br>
+[Address]  <br>
++40755307350<br>
++33695531917 <br>
+Contact@opti-jobs.com
+
+ </div>
+
+    
+    
+</body>
+</html>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script> 
+function changeHeight() {
+    var scroll = (window.pageYOffset/5);
+    var height = Math.min (100 + scroll);
+
+    document.getElementById('header-img').style.height =  height + '%';
+}
+
+function changeOpacity() {
+    var scroll = (window.pageYOffset / 5);
+    var height = scroll;
+    
+
+    document.getElementById('header-img').style.opacity =  '100' - height * '1.5' + '%';
+    document.getElementById('bar').style.opacity =   '3' * height * '0.5' + '%';
+}
+
+window.addEventListener('scroll', function(){
+    requestAnimationFrame(changeHeight)
+    requestAnimationFrame(changeOpacity)
+})
+</script>
+
+<script>
+const menuToggle = document.querySelector('.menuToggle');
+const navigation = document.querySelector('.navigation');
+menuToggle.onclick = function(){
+    navigation.classList.toggle('open')
+}
+const closure = document.querySelector('.closure');
+const nav = document.querySelector('.navigation');
+closure.onclick = function(){
+    nav.classList.toggle('open')
+}
+</script>
+
+<script>
+    function myFunction() {
+document.getElementById("Langmenu").style.display = 'flex';
+}
+function myFunction2() {
+document.getElementById("Langmenu").style.display = 'none';
+}
+</script>

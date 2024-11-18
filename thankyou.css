@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/bckopt.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.bck{
+    background-color: #013756;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vw;
+    width: 50vw;
+    margin: auto 25vw;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    text-align: center;
+    padding: 2vh;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 2vh;
+    border-radius: 25px;
+    margin-top: 2vh;
+   
+  }
+  .bar_logo{
+    display: flex;
+    align-items: end;
+  }
+  .square1{
+    background-color:  #07a1ff;  
+    height: 1.5vw; 
+    width: 1.5vw;
+    box-shadow: 1px 1px 1px rgba(54, 54, 54, 0.5);
+  }
+  .square2{
+    background-color:  #07a1ff;  
+    height: 3vw; 
+    width: 1.5vw;
+    margin-left: 0.35vh ;
+    box-shadow: 1px 1px 1px rgba(54, 54, 54, 0.5);
+  }
+  .square3{
+    background-color:  #07a1ff;  
+    height: 4.5vw; 
+    width: 1.5vw;
+    margin-left: 0.35vh ;
+    box-shadow: 1px 1px 1px rgba(54, 54, 54, 0.5);
+  }
+  .square4{
+    background-color:  #07a1ff;  
+    height: 6vw; 
+    width: 1.5vw;
+    margin-left: 0.35vh ;
+    box-shadow: 1px 1px 1px rgba(54, 54, 54, 0.5);
+  }
+  .Opti{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 6vw;
+  color: #5f5f5f; 
+  text-shadow: 1px 1px 1px rgba(54, 54, 54, 0.5); ;  
+  }
+  .Jobs{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 6vw;
+  color: #07a1ff;
+  text-shadow: 1px 1px 1px rgba(54, 54, 54, 0.5); ;     
+  
+  }
+  h1{
+    font-size: 5vw;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  button{
+    text-align: center;
+    font-size: 2vw;
+    padding: 16px 0;
+    text-decoration: none;
+    color: #07a1ff;
+    background-color: #fff;
+    border-radius: 25px;
+    border: .3vw #07a1ff solid;
+    font-style: normal;
+    width: 25vw;
+    transition: 0.1s ease-in-out;
+  }
+
+  button:hover{
+    background-color: #07a1ff;
+    color: #fff;
+  }
