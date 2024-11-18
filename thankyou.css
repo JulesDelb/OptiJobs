@@ -4,7 +4,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(Images/bckopt.jpeg);
+    background-image: url(bckopt.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

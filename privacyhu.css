@@ -18,7 +18,7 @@ body{
     width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url(Images/bckopt.jpeg);
+  background-image: url(bckopt.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -117,7 +117,7 @@ body{
     height: 5vh;
     border: 1px;
     border-radius: 25px;
-    background: url(Images/hung.jpeg);
+    background: url(hung.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
