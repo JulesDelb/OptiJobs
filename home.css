@@ -1065,14 +1065,15 @@ border-radius: 10px;
        background-size: cover;
        width: 100vw;
     height: 80vh;
-    margin-left: 10vw;
+    
        }
        .joinfleet p{
 font-size: 4vw;
        }
 
        .titre{
-        font-size: 6vw;
+        margin-top: 0;
+        font-size: 12vw;
         width: 100%;
         border-radius: 25px;
         border-radius:  15px 15px 0 0 ;
