@@ -19,14 +19,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.background{
-  position: fixed;
-  background-image: url(bckopt.jpeg) ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-}
+
 a{
     text-decoration: none;
 }
@@ -1015,7 +1008,7 @@ border-radius: 10px;
 
 @media screen and (max-width: 850px) {
     body{
-      background-attachment: scroll;
+      background:none;
     }
   
   .headmenu{
@@ -1060,7 +1053,7 @@ border-radius: 10px;
         font-size: 2vw;
       }
       .consent a{
-        font-size: 2vw;
+        font-size: 200vw;
       }
       input, select, textarea{
         color: #fff;
