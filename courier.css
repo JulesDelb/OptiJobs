@@ -719,12 +719,7 @@ margin-top: 0;
 }
 
 .contentp4 button:hover{
-  border: 3px #069AF3 solid; 
-  width: 80%;
-  height: 7vh;
-  border-radius: 20px;
   background-color: #07a1ff;
-  font-size: 1.5vw;
   color: #fff;
 }
 .imgcour11{
@@ -779,10 +774,12 @@ margin-top: 0;
     display: flex;
     width: 100%;
     border-radius: 15px;
+    margin: 0;
   }
   .imgcour{
     width: 100%;
     border-radius: 15px;
+    margin: 0;
   }
   .contentsub1{
     width: 100%;
@@ -824,8 +821,9 @@ footer p{
  .p2{
   font-size: 4vw;
 }
-button .call-to__button1{
-  font-size: 4vw;
+.call-to__button1{
+  font: normal;
+  font-size: 10vw;
 }
 .fa-solid{
   font-size: 15vw;
@@ -857,6 +855,9 @@ button .call-to__button1{
 }
 .p2{
   width: 70vw;
+}
+.contentp4 button{
+  font-size: 5vw;
 }
 
 }
