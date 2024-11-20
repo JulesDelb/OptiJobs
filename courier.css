@@ -796,6 +796,7 @@ margin-top: 0;
   width: 90vw;
   text-align: left;
   align-items: flex-start;
+  flex-direction: row;
 }
 .contentp4{
 
