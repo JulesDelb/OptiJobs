@@ -784,7 +784,9 @@ margin-top: 0;
     margin-left: 5vw;
     margin-right: 5vw;
     width: 90vw;
-    align-items: flex-start;
+    text-align: left;
+    align-items: left;
+    flex-direction: row;
 }
 .contentp2{
   width: 90%;
@@ -830,6 +832,25 @@ button .call-to__button1{
 }
 .fa-solid{
   font-size: 15vw;
+  width: 20vw;
+}
+.over1 h1{
+  font-size: 6vw;
+}
+.over1 .fa-brands{
+  width: 15vw;
+  height: 15vw;
+ font-size: 15vw;
+ text-align: center;
+}
+.over1 .fa-brands:hover{
+  width: 40vw;
+}
+.fa-instagram{
+  margin: 0 5vw;
+}
+.over1 h1 {
+  font-size: 4vw;
 }
 
 }
