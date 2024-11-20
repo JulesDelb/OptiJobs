@@ -847,5 +847,8 @@ button .call-to__button1{
 .over1 h1 {
   font-size: 4vw;
 }
+.col{
+  width: 70vw;
+}
 
 }
