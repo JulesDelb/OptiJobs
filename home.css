@@ -793,6 +793,13 @@ footer{
   .la3 p{
     margin-top: 1vh;
   }
+  .la h1{
+    margin-top: 2vh;
+    margin-bottom: 0;
+  }
+  .la p{
+    margin-top: 1vh;
+  }
   
   
   
@@ -1185,9 +1192,7 @@ p{
   margin-top: 5vh;
   margin-bottom: 5vy;
 }
-form{
-  border: 3px red solid;
-}
+
 .send{
   width: 50vw;
   font-size: 5vw ;
