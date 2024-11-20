@@ -1163,7 +1163,8 @@ p{
 .over1 .fa-brands{
   width: 15vw;
   height: 15vw;
- 
+ font-size: 15vw;
+ text-align: center;
 }
 .over1 .fa-brands:hover{
   width: 40vw;
