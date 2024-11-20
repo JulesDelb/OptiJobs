@@ -31,6 +31,10 @@ p{
     font-size: 2.5vw;
     text-align: center;
 }
+.col{
+  display: flex;
+  flex-direction: column;
+}
 
 #bar{
     position: fixed;
@@ -721,7 +725,9 @@ margin-top: 0;
   font-size: 1.5vw;
   color: #fff;
 }
-
+.imgcour11{
+  display: none;
+}
 
 
 @media screen and (max-width: 850px) {
@@ -737,4 +743,89 @@ margin-top: 0;
   .bar_content .logo{
       display: none;
   }
+  .content1{
+    flex-direction: column;
+    
+  }
+  .content2{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contentp2{
+    flex-direction: column;
+    
+  }
+  .contentp3{
+    flex-direction: column;
+    text-align: left;
+  align-items: flex-start;
+  }
+
+  .content{
+    align-items: flex-start;
+  }
+  .imgcour1{
+    display: none;
+  }
+  .imgcour11{
+    display: flex;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+  }
+  .imgcour{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+  }
+  .contentsub1{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    align-items: flex-start;
+}
+.contentp2{
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.contentsub3{
+  margin-left: 5vw;
+  width: 90vw;
+  text-align: left;
+  align-items: flex-start;
+}
+.contentp4{
+
+  width: 100%;
+  margin-right: 5vw ;
+  margin-left: 5vw;
+}
+p{
+  text-align: left;
+}
+h1{
+  text-align: left;
+}
+footer h1{
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+.content h1{
+  font-size: 6vw;
+}
+.content p{
+  font-size: 4vw;
+}
+ .p2{
+  font-size: 4vw;
+}
+button .call-to__button1{
+  font-size: 4vw;
+}
+
 }
