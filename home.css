@@ -801,6 +801,13 @@ footer{
     margin-top: 1vh;
   }
   
+  .imgredu{
+    width: 90%;
+    margin-left: 5%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 25px;
+  }
   
   
   .content{
