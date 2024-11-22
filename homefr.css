@@ -522,7 +522,7 @@ p{
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 9vh;
+    font-size: 5vw;
     width: 40vw;
     height: 25vh;
     background-color: #00507f;
@@ -641,7 +641,7 @@ margin-left: 5vw;
     font-size: 1.5vw;
 }
 .la p{
-    font-size: 1.25vw;
+    font-size: 1vw;
 }
 
 
@@ -663,7 +663,7 @@ margin-left: 5vw;
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 8vh;
+    font-size: 4vw;
     width: 40vw;
     height: 25vh;
     background-color: #00507f;
