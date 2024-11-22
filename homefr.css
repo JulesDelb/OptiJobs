@@ -19,6 +19,8 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+
 a{
     text-decoration: none;
 }
@@ -113,10 +115,12 @@ p{
   .Opti{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 7vh;
+  margin-top: 5vh;
   color: #5f5f5f; 
   text-shadow: 1px 1px 1px rgba(54, 54, 54, 0.5); 
   }
   .Jobs{
+    margin-top: 5vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 7vh;
   color: #07a1ff;
@@ -317,7 +321,7 @@ p{
   box-shadow:0 3px 3px 3px rgba(54, 54, 54, 0.5);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
  
 }
 .menu1 .nav__link1{
@@ -329,7 +333,7 @@ p{
     border-bottom: 1px solid rgba(255,255,255,0.1);
     font-style: normal;
     width: 90%;
-    height: 7.5vh;
+    height: 10vh;
     margin-left: 5%;
 }
 .menu1 .nav__link1:hover{
@@ -345,7 +349,7 @@ p{
   border-bottom: 1px solid rgba(255,255,255,0.1);
   font-style: normal;
   width: 90%;
-  height: 7.5vh;
+  height: 10vh;
   margin-left: 5%;
 }
 .menu1 .nav__link:hover{
@@ -361,14 +365,15 @@ p{
     justify-content: center;
     background: #fff;
     font: bold;
-    font-size: 5vh;
+    font-size: 5vw;
     color: #5d5e5f;
     border: 1px solid #fff;
     padding: 1vh 2vw;
     cursor: pointer ;
     margin-left: 5%;
+    margin-top: 2vh;
     width: 42.5vw;
-    height: 15vh;
+    height: 10vh;
     border: 1px;
     border-radius: 25px;
     background-size: cover;
@@ -405,13 +410,13 @@ p{
    }
    .langbck1{
     position: absolute;
-    width: 50vw;
-    height: 50vh;
+    width: 75vw;
+    height: 60vh;
     background-color: #07a1ff;
     border-radius: 25px;
     box-shadow:0 3px 3px 3px rgba(54, 54, 54, 0.5);
-    margin-top: 25vh;
-    margin-left: 25vw;
+    margin-top: 12.5vh;
+    margin-left: 12.5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -423,21 +428,22 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 40vw;
+    width: 50vw;
+    height: 15vh;
     background: #fff;
     outline: none;
     font: bold;
-    font-size: 4vw;
+    font-size: 5vw;
     color: #5d5e5f;
     box-shadow:0 1px 1px 1px rgba(54, 54, 54, 0.5);
-    border: none;
+    border: 2px #5f5f5f solid;
     border-radius: 20px;
     padding: 1vh 2vw;
     cursor: pointer ;
     transition: background 0.15s, color 0.15s;
    }
    .buttonlang1 img{
-    width: 4vw;
+    width: 5vw;
     margin-left: 1vw;
    border-radius: 5px;
    }
@@ -551,6 +557,7 @@ p{
 }
 .h11{
     font-size: 1.6em;
+    margin-top: 0;
     margin-bottom: 0;
     height: 10vh;
  
@@ -734,6 +741,7 @@ footer{
     color: #07a1ff;
     text-decoration: none;
     width: 4vw;
+    height: 4vw;
     padding: 0.3%;
     border-radius: 25px;
     margin: 2vh 2vw ;
@@ -777,7 +785,29 @@ footer{
    background-color: #25D366;
     transition: 0.3s ease-out;
   }
+
+  .la3 h1{
+    margin-top: 2vh;
+    margin-bottom: 0;
+  }
+  .la3 p{
+    margin-top: 1vh;
+  }
+  .la h1{
+    margin-top: 2vh;
+    margin-bottom: 0;
+  }
+  .la p{
+    margin-top: 1vh;
+  }
   
+  .imgredu{
+    width: 90%;
+    margin-left: 5%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 25px;
+  }
   
   
   .content{
@@ -902,6 +932,7 @@ footer{
     color: #25D366;
     text-decoration: none;
     width: 4vw;
+    height: 4vw;
     padding: .9%;
     border-radius: 25px;
     margin: 2vh 2vw ;
@@ -926,7 +957,7 @@ border-radius: 10px;
     .ro{
         margin-top: 0vh;
         width: 75%;
-        background-image: url(Images/ro.jpeg);
+        background-image: url(ro.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;
@@ -935,14 +966,14 @@ border-radius: 10px;
         margin-top: 3vh;
         margin-bottom: 3vh;
         width: 75%;
-        background-image: url(Images/hung.jpeg);
+        background-image: url(hung.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         border-radius: 20px;
     }
     .fr{
         width: 75%;
-        background-image: url(Images/fr.png);
+        background-image: url(fr.png);
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;
@@ -955,22 +986,30 @@ border-radius: 10px;
   .copy p{
     text-align: center;
   }
+  .copy{
+    margin-top: 5vh;
+  }
   
   .livreurm{
+    margin-top: 1vh;
     margin-left: 35vw;
     width: 30vw;
-    height: 7.5vh;
-    border-radius: 15px;
-    border: 2px #07a1ff solid;
+    background: #fff;
+    outline: none;
+    font: bold 1.1em 'Arial', Helvetica, sans-serif;
     color: #07a1ff;
-    background-color: #fff;
+    border: 3px solid #07a1ff;
+    border-radius: 25px;
+    padding: 1vh 2vw;
+    cursor: pointer ;
+    transition: background 0.15s, color 0.15s;
     font-size: 2vw;
-    padding: 2vw;
+    text-align: center;
   
 }
 
 .livreurm:hover{
-    border: 2px #fff solid;
+    border: 3px #fff solid;
     color: #fff;
     background-color: #07a1ff;
     transition: 0.15s ease-out;
@@ -999,6 +1038,78 @@ border-radius: 10px;
 
 
 
+.contenu1{
+  display: flex;
+  flex-direction: column;
+}
+
+.contenu2{
+  display: none;
+  width: 90vw;
+  margin-left: 5vw;
+ 
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h1{
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  font-size: 5vw;
+}
+h2{
+  font-size: 6vw;
+  font-weight: normal;
+}
+.p3{
+display: flex;
+flex-direction: row;
+align-items: center;
+background: #5f5f5f;
+border-radius: 30px;
+}
+.p3 h1{
+font-size: 4vw;
+}
+p{
+  font-size: 1.5vw;
+  text-align: center;
+}
+.la3{
+  margin: 3vh 0;
+  padding: 1.5vw;
+  width: 27vw;
+  height: 45vw;
+  background-color: #07a1ff;
+  margin-right: 1.66vw;
+  margin-left: 1.66vw;
+  border-radius: 30px;
+}
+.imgcont3{
+  width: 100%;
+  margin-top: 10vh;
+  border-radius: 30px;
+}
+
+.fleet1{
+  margin-top: 5vh;
+  width: 50vw;
+  background: #fff;
+  outline: none;
+  font: bold 1.1em 'Arial', Helvetica, sans-serif;
+  color: #07a1ff;
+  border: 3px solid #07a1ff;
+  border-radius: 25px;
+  padding: 1vh 2vw;
+  cursor: pointer ;
+  transition: background 0.15s, color 0.15s;
+  font-size: 5vw;
+}
+.fleet1:hover{
+  border: 3px #07a1ff solid;
+  background: #013756;
+  color: #fff;
+}
 
 
 
@@ -1006,21 +1117,32 @@ border-radius: 10px;
 
 
 @media screen and (max-width: 850px) {
-    .headmenu{
+    body{
+      background-image:none;
+      background-color: #01324e;
+    }
+    h1{
+      font-size: 9vw;
+    }
+    .contenu1{
       display: none;
     }
-    
- 
+    .contenu2{
+      display: flex;
+    }
+  .headmenu{
+      display: none;
+    }
     .navigation{
       display: flex;
     }
-
     .bar_content .logo{
         display: none;
     }
-
     .content{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .file{
         margin: 0;
@@ -1028,8 +1150,9 @@ border-radius: 10px;
     }
     .whatsa{
         margin: 0;
+        padding: 0;
         width: 95%;
-        height: 50vh;
+       
     }
     .copy p{
         text-align: center;
@@ -1054,128 +1177,31 @@ border-radius: 10px;
         color: #fff;
        font-size: 2vw;
     }
-
-
-
-    .joinfleet{
-        background-image: url(Images/courier.jpeg);
-       background-size: cover;
-       }
-       .joinfleet p{
-font-size: 4vw;
-       }
-
-       .titre{
-        width: 100%;
-        border-radius: 25px;
-        border-radius:  15px 15px 0 0 ;
-       }
-       .conte{
-        background-color: rgba(7,161,255, 0.5);
-        border-radius:  15px ;
-       }
-       .imgcont {
-        display: none;
-       }
-       .h11{
-        font-size: 5vw;
-       }
-
-
-
-.pat h1{
-    background-color: #069AF3;
-    border-radius: 20px;
-box-shadow: 2px 2px  2px  rgba(62, 62, 62, 0.5); 
-width: 80vw;
-margin-left: -2.5vw;
+.contenu1{
+  display: none;
+}
+.over1 h1{
+  font-size: 6vw;
+}
+.over1 .fa-brands{
+  width: 15vw;
+  height: 15vw;
+ font-size: 15vw;
+ text-align: center;
+}
+.over1 .fa-brands:hover{
+  width: 40vw;
+}
+.fa-instagram{
+  margin: 0 5vw;
+}
+.or{
+  margin-top: 5vh;
+  margin-bottom: 5vy;
 }
 
-
-.bed{
-    background-color: rgba(3, 50, 94, 0.8);
-    padding: 5vh 0;
-    border-radius: 20px;
-    margin-top: 10vh;
-    width: 75vw;
-    margin-left: 12.5vw;
+.send{
+  width: 50vw;
+  font-size: 5vw ;
 }
-.fa-calendar-days{
-    font-size: 10vw;
-    margin-top: 2vh;
-}
-.fa-chart-simple{
-    font-size: 10vw;
-    margin-top: 2vh;
-}
-.fa-hand-holding-dollar{
-    font-size: 10vw;
-    margin-top: 2vh;
-}
-.la h1{
-    font-size: 2.5vw;
-}
-.la p{
-    font-size: 2vw;
-}
-.reas{
-    display: flex;
-    flex-direction: row;
-   justify-content: center;
-   padding: 0 ;
-}
-.la{
-    text-align: center;
-width: 22vw;
-height: 35vh;
-background-color: #01324e;
-border-radius: 20px;
-box-shadow: 2px 2px  2px  rgba(62, 62, 62, 0.5); 
-margin-right: 1vw;
-margin-left: 1vw ;
-}
-.preset2{
-    background-image: url(Images/Game.jpeg);
-   background-size: cover;
-   }
-   .imgcont2{
-    display: none;
-   }
-   .titre2{
-    width: 100%;
-    border-radius: 25px;
-    border-radius:  15px 15px 0 0 ;
-   }
-   .conte2{
-    background-color: rgba(7,161,255, 0.5);
-    border-radius:  15px ;
-   }
-   .contt2 .h11{
-    text-align: left;
-    font-size: 2vw;
-   }
-   .pat1 h1{
-    background-color: #069AF3;
-    border-radius: 20px;
-box-shadow: 2px 2px  2px  rgba(62, 62, 62, 0.5); 
-width: 80vw;
-margin-left: -2.5vw;
-}
-
-
-.bed1{
-    background-color: rgba(3, 50, 94, 0.8);
-    padding: 5vh 0;
-    border-radius: 20px;
-    margin-top: 10vh;
-    width: 75vw;
-    margin-left: 12.5vw;
-}
-.vidr{
-    width: 70vw;
-    height: 70vw;
-    margin-left: 2.5vw;
-}
-
-
 }
