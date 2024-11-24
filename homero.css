@@ -518,16 +518,16 @@ p{
     box-shadow: 3px 3px 3px rgba(54, 54, 54, 0.5);
 }
 .titre{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 9vh;
-    width: 40vw;
-    height: 25vh;
-    background-color: #00507f;
-    border-radius:  0 15px 0 0 ;
-    text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+  width: 40vw;
+  height: 25vh;
+  background-color: #00507f;
+  border-radius:  0 15px 0 0 ;
+  text-align: center;
 }
 .imgcont{
     height: 75vh;
@@ -556,11 +556,16 @@ p{
     
 }
 .h11{
-    font-size: 1.6em;
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 10vh;
- 
+  font-size: 1.1vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 10vh;
+}
+.contt .h11{
+  font-size: 2.5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 10vh;
 }
 p{
     margin-top: 0;
@@ -641,7 +646,7 @@ margin-left: 5vw;
     font-size: 1.5vw;
 }
 .la p{
-    font-size: 1.25vw;
+    font-size: 1vw;
 }
 
 
@@ -663,7 +668,7 @@ margin-left: 5vw;
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 8vh;
+    font-size: 3.5vw;
     width: 40vw;
     height: 25vh;
     background-color: #00507f;
