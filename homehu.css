@@ -522,7 +522,7 @@ p{
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     width: 40vw;
     height: 25vh;
     background-color: #00507f;
@@ -553,14 +553,18 @@ p{
     margin-right: 3vw;
    height: 50vh; 
     text-align: left;
-    
 }
 .h11{
     font-size: 1vw;
     margin-top: 0;
     margin-bottom: 0;
     height: 10vh;
- 
+}
+.contt .h11{
+  font-size: 3vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 10vh;
 }
 p{
     margin-top: 0;
