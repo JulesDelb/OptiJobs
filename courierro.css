@@ -691,6 +691,12 @@ margin-top: 0;
  background-color: #0077B5;
   transition: 0.3s ease-out;
 }
+.fa-tiktok:hover{
+  width: 20vw;
+  color: #fff;
+  background: linear-gradient(to top left, #25F4EE 0%,#25F4EE 15%,#000000 15%,#000000 85%,#FE2C55 85%,#FE2C55 100%);
+  transition: 0.3s ease-out;
+}
 
 .contentp4 button{
   border: 3px #069AF3 solid; 
